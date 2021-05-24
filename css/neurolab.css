@@ -1,0 +1,120 @@
+/* SIDEBAR */
+.carousel-item{
+  height: 600px;
+}
+/* BLOG */
+.card-img-top{
+  height: 29rem;
+  width: 100%;
+}
+/* SERVICES */
+.fas {
+   -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+       -ms-transition: all 0.5s ease;
+           transition: all 0.5s ease;
+           cursor: pointer;
+ }
+ 
+.fas:hover{
+   -webkit-transform: rotate(55deg);
+      -moz-transform: rotate(55deg);
+        -o-transform: rotate(55deg);
+       -ms-transform: rotate(55deg);
+           transform: rotate(55deg);
+ }
+
+ .card1{
+   border: 1px solid rgb(206, 111, 95);
+ }
+ .card2{
+   border: 1px solid rgb(128, 95, 206);
+ }
+ .card3{
+   border: 1px solid rgb(49, 145, 62);
+ }
+ .card4{
+   border: 1px solid rgb(24, 22, 22);
+ }
+ .card5{
+   border: 1px solid rgb(202, 95, 206);
+ }
+ .card6{
+   border: 1px solid rgb(95, 152, 206);
+ }
+
+/* CONTACT FORM */
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #777777;
+}
+form .form-group input, input:focus{
+ box-shadow: none;
+}
+
+form .form-group textarea, textarea:focus{
+ box-shadow: none;
+}
+
+.btn{
+  font: normal 500 16px/25px var(--roboto);
+  color: var(--text-color);
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+/* MAP */
+#mapid { 
+  height: 450px; 
+}
+
+
+/********************************MEDIA QUERyS*************************************/
+
+/* Media Query for Mobile Devices */
+@media screen and (min-width: 300px) and (max-width: 480px){
+  .carousel-item{
+    height: 200px;
+  }
+  .card-img-top{
+    height: 13rem;
+    width: 100%;
+  }
+  .sidebar{
+    display: none;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media screen and (min-width: 481px) and (max-width: 767px) { 
+  .carousel-item{
+    height: 250px;
+  }
+  .card-img-top{
+    height: 16rem;
+    width: 100%;
+  }
+  .sidebar{
+    display: none;
+  }
+}
+
+   
+ /* Media Query for Tablets Ipads portrait mode */
+ @media screen and (min-width: 768px) and (max-width: 1000px){
+    .carousel-item{
+      height: 350px;
+    }
+    .card-img-top{
+      height: 20rem;
+      width: 100%;
+    }
+    .sidebar{
+      display: none;
+    }
+ }
