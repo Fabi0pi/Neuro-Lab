@@ -1,5 +1,5 @@
 ![logoN](https://user-images.githubusercontent.com/75267018/119357693-2539ba80-bca8-11eb-8ae0-d6380d7b3f45.png)
-# [Neuro Lab theme](https://neurolabcaralis.000webhostapp.com/)
+# [Neuro Lab](https://neurolabcaralis.000webhostapp.com/)
   Is the realization of the final project of the [start2impact](https://www.start2impact.it/) wordpress guide.
   
 # Key points
